@@ -1,0 +1,1 @@
+<?phpinclude __DIR__ . '/../../Application/TSingleton.php';//$sing = new \Backend\Application\TSingleton();$sing = \Backend\Application\TSingleton::getInstance();var_dump($sing);$sing2 = \Backend\Application\TSingleton::getInstance();var_dump($sing2);
