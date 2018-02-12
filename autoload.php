@@ -1,0 +1,1 @@
+<?phpfunction __autoload($className){    $path = __DIR__ . '/' .str_replace('\\','/',$className) . '.php';    if(file_exists($path)){       // echo $path;        require_once  $path;    } else {        echo 'Класс НЕ НАЙДЕН!!!!!!!!!!!';    }}

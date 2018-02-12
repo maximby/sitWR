@@ -1,0 +1,1 @@
+<?phprequire_once  __DIR__ . '/../../autoload.php';//include_once __DIR__ . '/../Config.php';//include_once __DIR__ . '/../TSingleton.php';$conf = \Application\Config::instance();var_dump($conf->data);

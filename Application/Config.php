@@ -1,0 +1,1 @@
+<?phpnamespace Application;//include_once __DIR__ . '/TSingleton.php'; // @todo ????class Config{    use \Application\TSingleton;    public $data = [        'db' => [            'host' => '127.0.0.1',            'dbname' => 'site',            'userName' => 'root',            'password' => '',        ],        'logFile' => '',    ] ;}

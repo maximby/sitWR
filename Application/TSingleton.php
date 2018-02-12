@@ -1,10 +1,11 @@
 <?php
 
 
-namespace Backend\Application;
+namespace Application;
 
 trait TSingleton
 {
+    /**@var $instance self*/
    protected static $instance = null;
    protected function __construct()
    {
@@ -15,6 +16,9 @@ trait TSingleton
    {
    }
 
+   /**
+    *  return self
+    */
    public static function instance()
    {
        if (static::$instance === null){
